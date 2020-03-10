@@ -1,0 +1,87 @@
+@mixin prufa {
+    width: 90%;
+    margin: 0 auto;
+    background-color:gray;
+    border: 1px dashed gray;
+    font-family: monospace;
+    background-image: linear-gradient(rgb(250, 235, 215),rgb(241, 167, 76));
+    padding: 1em;
+    
+    
+
+}
+.tab{
+    display: inline-block;
+    float: right;
+    padding: 5px 10px 5px 10px;
+    background:rgb(241, 167, 76) ;
+    color: #FFFFFF;
+    margin: 70px 5px 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 25px;
+    
+}
+.tab a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+.cli{
+    width:150px;
+    height:150px;
+
+}
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: 10px solid rgb(212, 202, 202);
+    padding: 0.5em;
+    margin: 2em;
+    background-color:rgb(247, 218, 181) ;
+}
+.button{
+    color: white;
+    background-color: rgb(169, 169, 169);
+    font-size: 20px;
+    font-style: oblique;
+}
+.col{
+    background-color: rgb(255, 218, 185);
+    margin: 1em;
+
+}
+.omar{
+    border: 10px solid rgb(212, 202, 202);
+    padding: 1em;
+    margin: 5em;
+    text-align: justify;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+body{
+    @include prufa;
+    
+}
+@media screen and (min-width: 800px)
+{
+    .vcard{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+    }
+
+
+}
+
+@media screen and (min-width: 1200px)
+{
+    .vcard{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    }

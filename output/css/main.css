@@ -1,0 +1,88 @@
+.tab {
+  display: inline-block;
+  float: right;
+  padding: 5px 10px 5px 10px;
+  background: #f1a74c;
+  color: #FFFFFF;
+  margin: 70px 5px 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 25px;
+}
+
+.tab a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.cli {
+  width: 150px;
+  height: 150px;
+}
+
+.font {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+  text-align: center;
+  border: 10px solid #d4caca;
+  padding: 0.5em;
+  margin: 2em;
+  background-color: #f7dab5;
+}
+
+.button {
+  color: white;
+  background-color: darkgray;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.col {
+  background-color: peachpuff;
+  margin: 1em;
+}
+
+.omar {
+  border: 10px solid #d4caca;
+  padding: 1em;
+  margin: 5em;
+  text-align: justify;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: gray;
+  border: 1px dashed gray;
+  font-family: monospace;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(antiquewhite), to(#f1a74c));
+  background-image: linear-gradient(antiquewhite, #f1a74c);
+  padding: 1em;
+}
+
+@media screen and (min-width: 800px) {
+  .vcard {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .vcard {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/*# sourceMappingURL=main.css.map */
