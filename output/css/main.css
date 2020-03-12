@@ -68,6 +68,30 @@ body {
   padding: 1em;
 }
 
+body .cli_1 {
+  width: 600px;
+  height: 600px;
+}
+
+body .fon {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body .imge {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 300px;
+  height: 300px;
+}
+
+body .imge img {
+  border: 1px dashed #d8c46c;
+  padding: 5px;
+}
+
 @media screen and (min-width: 800px) {
   .vcard {
     display: -ms-grid;

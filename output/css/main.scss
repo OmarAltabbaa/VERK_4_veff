@@ -7,7 +7,28 @@
     background-image: linear-gradient(rgb(250, 235, 215),rgb(241, 167, 76));
     padding: 1em;
     
+.cli_1{
+    width: 600px;
+    height: 600px;
+}
+.fon{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+}
+.imge{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 300px;
+    height: 300px;
+
+
+}
+.imge img{
+    border: 1px dashed rgb(216, 196, 108);
+    padding: 5px;
+}
+
 
 }
 .tab{
